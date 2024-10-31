@@ -47,6 +47,7 @@ feature2 = 'SepalWidthCm'
 def plot_predictions(X, predictions, title):
     plt.scatter(X[feature1], X[feature2], c=predictions, cmap='viridis', edgecolor='k', s=100)
     plt.title(title)
+
     plt.xlabel(feature1)
     plt.ylabel(feature2)
     plt.grid(True)
